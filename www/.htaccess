@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI}      ^/js/fuzzball_browser.min.js [NC]
+RewriteRule ^ js/fuzzball_browser.min.js [L]
+
+RewriteCond %{REQUEST_URI}      ^/robots.txt [NC]
+RewriteRule ^ robots.txt [L]
+
+RewriteCond %{REQUEST_URI}      !^/index.php
+RewriteRule ^ index.php [QSA,L]
+</IfModule>

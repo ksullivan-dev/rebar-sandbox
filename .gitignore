@@ -1,0 +1,9 @@
+/node_modules/
+/vendor/
+/.vagrant/
+/www_old/vendor/
+/www_old/dist/
+/www/vendor/
+/www/dist/
+/Vagrantfile
+/config.ini
